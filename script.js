@@ -149,7 +149,7 @@ function initializeSkillsAnimation() {
             const width = bar.getAttribute('data-width');
             setTimeout(() => {
                 bar.style.width = width;
-            }, 200);
+            }, 100);
         });
     }
 }
